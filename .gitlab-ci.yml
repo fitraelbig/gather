@@ -4,7 +4,7 @@ stages:
 
 run tests:
   stage: test
-  image: ruby:2.5.8-alpine
+  image: ruby:2.5.8
   script:
     # - apt update
     - gem install bundler
