@@ -1,7 +1,7 @@
 
 [![pipeline status](https://gitlab.com/fitra3/gather/badges/master/pipeline.svg)](https://gitlab.com/fitra3/gather/-/commits/master)
 
-![coverage](https://gitlab.com/gitlab-org/gitlab/badges/main/coverage.svg?job=coverage)
+[![coverage report](https://gitlab.com/fitra3/gather/badges/master/coverage.svg)]
 
 # README
 
