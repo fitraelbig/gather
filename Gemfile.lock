@@ -123,6 +123,8 @@ GEM
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     regexp_parser (2.5.0)
+    repo-small-badge (0.2.7)
+      victor (~> 0.2.8)
     rspec-core (3.7.1)
       rspec-support (~> 3.7.0)
     rspec-expectations (3.7.0)
@@ -161,6 +163,9 @@ GEM
       simplecov-html (~> 0.11)
       simplecov_json_formatter (~> 0.1)
     simplecov-html (0.12.3)
+    simplecov-small-badge (0.2.4)
+      repo-small-badge (~> 0.2.7)
+      simplecov (~> 0.17)
     simplecov_json_formatter (0.1.2)
     spring (2.1.1)
     spring-watcher-listen (2.0.1)
@@ -184,6 +189,7 @@ GEM
       thread_safe (~> 0.1)
     uglifier (4.2.0)
       execjs (>= 0.3.0, < 3)
+    victor (0.2.8)
     web-console (3.7.0)
       actionview (>= 5.0)
       activemodel (>= 5.0)
@@ -210,6 +216,7 @@ DEPENDENCIES
   sass-rails (~> 5.0)
   selenium-webdriver
   simplecov
+  simplecov-small-badge
   spring
   spring-watcher-listen (~> 2.0.0)
   sqlite3
