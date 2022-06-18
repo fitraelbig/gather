@@ -6,6 +6,7 @@ run tests:
   stage: test
   image: ruby:2.5
   script:
+    - gem install bundler
     - bundle install
     - bundle exec rspec
   artifacts:
