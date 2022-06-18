@@ -8,7 +8,7 @@ run tests:
   script:
     - gem install bundler
     - bundle install
-    - bundle exec rspec
+    - rspec
   artifacts:
     reports:
       coverage_report:
