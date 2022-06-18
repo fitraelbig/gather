@@ -2,7 +2,7 @@ stages:
   - test
   
 
-run tests:
+coverage:
   stage: test
   image: ruby:2.5.8
   script:
@@ -10,7 +10,7 @@ run tests:
     - gem install bundler
     # - gem install execjs
     - bundle install
-    - rspec
+    - bundle exec rspec
   artifacts:
     reports:
       coverage_report:

@@ -1,5 +1,5 @@
 
-![coverage](https://gitlab.com/gitlab-org/gitlab/badges/main/coverage.svg?job=run tests)
+![coverage](https://gitlab.com/gitlab-org/gitlab/badges/main/coverage.svg?job=coverage)
 
 # README
 
