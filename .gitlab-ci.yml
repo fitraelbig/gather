@@ -7,7 +7,7 @@ run tests:
   image: ruby:2.5
   script:
     - apt update
-    - apt install libv8-dev
+    - apt install -y libv8-dev
     - gem install bundler
     - bundle install
     - rspec
