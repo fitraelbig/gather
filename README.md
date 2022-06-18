@@ -1,5 +1,9 @@
 # README
 
+![Coverage](https://marcgrimme.github.io/simplecov-small-badge/badges/coverage_badge_total.png)
+
+
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
