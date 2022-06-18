@@ -13,3 +13,5 @@ run tests:
       coverage_report:
         coverage_format: cobertura
         path: coverage/coverage.xml
+  tags:
+    - test-runner
