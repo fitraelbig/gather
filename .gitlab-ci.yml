@@ -1,0 +1,15 @@
+stages:
+  - test
+  
+
+run tests:
+  stage: test
+  image: ruby:2.5
+  script:
+    - bundle install
+    - bundle exec rspec
+  artifacts:
+    reports:
+      coverage_report:
+        coverage_format: cobertura
+        path: coverage/coverage.xml

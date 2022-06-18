@@ -43,7 +43,7 @@ group :development, :test do
   gem 'selenium-webdriver'
   gem 'rspec-rails', '~> 3.7.0'
   gem 'simplecov', require: false, group: :test
-  gem 'simplecov-small-badge', require: false
+  gem 'simplecov-cobertura'
 end
 
 group :development do
