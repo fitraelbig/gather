@@ -6,9 +6,9 @@ run tests:
   stage: test
   image: ruby:2.5.8-alpine
   script:
-    - apt update
-    - gem install bundler
-    - gem install execjs
+    # - apt update
+    # - gem install bundler
+    # - gem install execjs
     - bundle install
     - rspec
   artifacts:
