@@ -6,6 +6,7 @@ run tests:
   stage: test
   image: ruby:2.5
   script:
+    - apt install libv8-dev
     - gem install bundler
     - bundle install
     - rspec
