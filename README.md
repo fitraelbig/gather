@@ -1,5 +1,5 @@
 <!-- ![coverage report](https://gitlab.com/fitra3/gather/badges/master/coverage.svg) -->
-[![coverage](https:// /coverage/coverage.xml/coverage.svg)](https:// /coverage/coverage.xml/)
+[![coverage](https://test-coverage-trial.s3.ap-southeast-1.amazonaws.com/coverage.svg)](https://test-coverage-trial.s3.ap-southeast-1.amazonaws.com/index.html)
 
 # README
 
