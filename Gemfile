@@ -44,6 +44,7 @@ group :development, :test do
   gem 'rspec-rails', '~> 3.7.0'
   gem 'simplecov', require: false, group: :test
   gem 'simplecov-cobertura'
+  gem 'simplecov-formatter-badge', require: false
 end
 
 group :development do

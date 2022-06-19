@@ -3,8 +3,17 @@ require 'simplecov'
 
 require 'simplecov-cobertura'
 SimpleCov.formatter = SimpleCov::Formatter::CoberturaFormatter
-  
-SimpleCov.start
+require 'simplecov-formatter-badge'
+SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter.new [SimpleCov::Formatter::HTMLFormatter, SimpleCov::Formatter::BadgeFormatter]
+
+SimpleCov.start 
+
+# SimpleCovSmallBadge.configure do |config|
+#   # does not created rounded borders
+#   config.rounded_border = true
+#   # set the background for the title to darkgrey
+#   config.background = '#ffffcc'
+# end
 
 # configure any options you want for SimpleCov::Formatter::BadgeFormatter
 

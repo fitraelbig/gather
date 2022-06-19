@@ -1,4 +1,5 @@
-![coverage report](https://gitlab.com/fitra3/gather/badges/master/coverage.svg)
+<!-- ![coverage report](https://gitlab.com/fitra3/gather/badges/master/coverage.svg) -->
+[![coverage](https:// /coverage/coverage.xml/coverage.svg)](https:// /coverage/coverage.xml/)
 
 # README
 
