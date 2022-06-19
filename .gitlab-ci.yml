@@ -18,6 +18,8 @@ coverage:
     # - gem install execjs
     - bundle install
     - bundle exec rspec
+    - aws s3 cp ./coverage/coverage.svg s3://test-coverage-trial/
+    - aws s3 cp ./coverage/index.html s3://test-coverage-trial/
   # artifacts:
   #   reports:
   #     coverage_report:
