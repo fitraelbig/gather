@@ -17,6 +17,6 @@ coverage:
       coverage_report:
         coverage_format: cobertura
         path: coverage/coverage.xml
-  coverage: '/LOC \((\d+\.\d+%)\) covered.$/'
+  coverage: '/LOC \((\d+\.\d+%)\) covered/'
   tags:
     - test-runner
