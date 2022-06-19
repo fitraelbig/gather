@@ -1,8 +1,8 @@
 # This file is copied to spec/ when you run 'rails generate rspec:install'
 require 'simplecov'
 
-require 'simplecov-cobertura'
-SimpleCov.formatter = SimpleCov::Formatter::CoberturaFormatter
+# require 'simplecov-cobertura'
+# SimpleCov.formatter = SimpleCov::Formatter::CoberturaFormatter
 require 'simplecov-formatter-badge'
 SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter.new [SimpleCov::Formatter::HTMLFormatter, SimpleCov::Formatter::BadgeFormatter]
 
