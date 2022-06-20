@@ -21,7 +21,7 @@ jobs:
       - name: Update apt
         run: apt update
       - name: Install nodejs
-        run: apt install nodejs
+        run: apt install -y nodejs
       - name: Update bundle
         run: gem install bundler
       - name: Install dependencies
