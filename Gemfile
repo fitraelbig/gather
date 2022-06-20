@@ -42,7 +42,7 @@ group :development, :test do
   gem 'capybara', '>= 2.15'
   gem 'selenium-webdriver'
   gem 'rspec-rails', '~> 3.7.0'
-  gem 'simplecov', require: false, group: :test
+  gem 'simplecov'
   gem 'simplecov-lcov'
 end
 
