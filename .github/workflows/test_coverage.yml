@@ -9,7 +9,7 @@ on:
 jobs:
   test:
     runs-on: self-hosted
-    container: ruby:2.5.9
+    container: ruby:2.5.8
     steps:
       # - name: Default user
       #   run: whoami
@@ -31,7 +31,7 @@ jobs:
       - name: Run tests
         run: rspec
       - name: list directory
-        run: ls ./coverage/
+        run: pwd
       - uses: romeovs/lcov-reporter-action@v0.2.16
         with:
           lcov-file: ./coverage/lcov/gatherer.lcov
