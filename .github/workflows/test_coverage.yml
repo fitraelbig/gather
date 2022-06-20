@@ -28,8 +28,7 @@ jobs:
         run: bundle install
       - name: Run tests
         run: bundle exec rspec
-      - name: Add code coverage comment
-19      uses: romeovs/lcov-reporter-action@v0.2.16
+19    - uses: romeovs/lcov-reporter-action@v0.2.16
 20      with:
 21        lcov-file: ./coverage/lcov/gatherer.lcov
 22        github-token: ${{ secrets.TEST }}
