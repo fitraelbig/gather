@@ -12,6 +12,8 @@ jobs:
     runs-on: self-hosted
 
     steps:
+      - name: Default user
+        run: whoami
       - uses: actions/checkout@v3
       - name: Set up Ruby
         uses: ruby/setup-ruby@359bebbc29cbe6c87da6bc9ea3bc930432750108
