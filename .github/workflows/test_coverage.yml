@@ -27,7 +27,7 @@ jobs:
       - name: Install dependencies
         run: bundle install
       - name: Run tests
-        run: bundle exec rspec
+        run: rspec
       - name: list directory
         run: ls ./coverage/
       - uses: romeovs/lcov-reporter-action@v0.2.16
