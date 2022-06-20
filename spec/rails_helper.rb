@@ -3,9 +3,11 @@ require 'simplecov'
 
 # require 'simplecov-cobertura'
 # SimpleCov.formatter = SimpleCov::Formatter::CoberturaFormatter
-require 'simplecov-formatter-badge'
-SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter.new [SimpleCov::Formatter::HTMLFormatter, SimpleCov::Formatter::BadgeFormatter]
-
+# require 'simplecov-formatter-badge'
+# SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter.new [SimpleCov::Formatter::HTMLFormatter, SimpleCov::Formatter::BadgeFormatter]
+require 'simplecov-lcov'
+SimpleCov::Formatter::LcovFormatter.config.report_with_single_file = true
+SimpleCov.formatter = SimpleCov::Formatter::LcovFormatter
 SimpleCov.start 
 
 # SimpleCovSmallBadge.configure do |config|
