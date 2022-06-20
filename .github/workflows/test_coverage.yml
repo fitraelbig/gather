@@ -8,13 +8,14 @@ on:
 
 jobs:
   test:
-    runs-on: self-hosted
-    container: ruby:2.5.8
+    # runs-on: self-hosted
+    runs-on: ubuntu-latest
+    # container: ruby:2.5.8
     steps:
       # - name: Default user
       #   run: whoami
-      # - uses: actions/checkout@v3
-      # - name: Set up Ruby
+      - uses: actions/checkout@v3
+      - name: Set up Ruby
       # - uses: ruby/setup-ruby@359bebbc29cbe6c87da6bc9ea3bc930432750108
       #   with:
       #     ruby-version: '2.5.8'
