@@ -22,7 +22,7 @@ jobs:
       - name: Update apt
         run: sudo apt update
       - name: Install nodejs
-        run: apt install -y nodejs
+        run: sudo apt install -y nodejs
       - name: Update bundle
         run: gem install bundler
       - name: Install dependencies
