@@ -15,7 +15,7 @@ jobs:
       #   run: whoami
       # - uses: actions/checkout@v3
       # - name: Set up Ruby
-      #   uses: ruby/setup-ruby@359bebbc29cbe6c87da6bc9ea3bc930432750108
+      # - uses: ruby/setup-ruby@359bebbc29cbe6c87da6bc9ea3bc930432750108
       #   with:
       #     ruby-version: '2.5.8'
       - name: Update apt
@@ -28,7 +28,7 @@ jobs:
         run: bundle install
       - name: Run tests
         run: bundle exec rspec
-19    - uses: romeovs/lcov-reporter-action@v0.2.16
-20      with:
-21        lcov-file: ./coverage/lcov/gatherer.lcov
-22        github-token: ${{ secrets.TEST }}
+      - uses: romeovs/lcov-reporter-action@v0.2.16
+        with:
+          lcov-file: ./coverage/lcov/gatherer.lcov
+          github-token: ${{ secrets.TEST }}
