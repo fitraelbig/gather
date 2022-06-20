@@ -35,5 +35,5 @@ jobs:
         run: pwd
       - uses: romeovs/lcov-reporter-action@v0.2.16
         with:
-          lcov-file: /__w/gather/gather/coverage/lcov/gather.lcov
+          lcov-file: ./coverage/lcov/gather.lcov
           github-token: ${{ secrets.TEST }}
