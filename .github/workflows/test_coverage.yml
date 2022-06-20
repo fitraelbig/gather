@@ -33,10 +33,10 @@ jobs:
         run: rspec
       - name: list directory
         run: pwd
-      # - uses: romeovs/lcov-reporter-action@v0.2.19
-      #   with:
-      #     lcov-file: ./coverage/lcov/gather.lcov
-      #     github-token: ${{ secrets.TEST }}
+      - uses: romeovs/lcov-reporter-action@v0.2.19
+        with:
+          lcov-file: ./coverage/lcov/gather.lcov
+          github-token: ${{ secrets.TEST }}
       - name: Simplecov Report
         uses: aki77/simplecov-report-action@v1
         with:
