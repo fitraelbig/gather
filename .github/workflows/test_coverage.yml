@@ -5,11 +5,11 @@ on:
   #   branches: [ master ]
   pull_request:
     branches: [ master ]
-#test inikkkk
+
 jobs:
   test:
     # runs-on: self-hosted
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     container: ruby:2.5.8
     steps:
       # - name: Default user
@@ -37,3 +37,7 @@ jobs:
         with:
           lcov-file: ./coverage/lcov/gather.lcov
           github-token: ${{ secrets.TEST }}
+      - name: Simplecov Report
+        uses: aki77/simplecov-report-action@v1
+        with:
+          token: ${{ secrets.TEST }}
