@@ -9,7 +9,7 @@ on:
 jobs:
   test:
     # runs-on: self-hosted
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     container: ruby:2.5.8
     steps:
       # - name: Default user
